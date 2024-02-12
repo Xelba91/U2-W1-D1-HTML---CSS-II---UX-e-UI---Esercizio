@@ -201,19 +201,15 @@ footer a {
 /* da  0   a 575  è per dispositivi mobili
    da 576  a 767  è per dispositivi medi (tablet)
    da 768  a 1199 è per portatili
-   da 1200 per dispositivi ancora piu risoluti   */
+   da 1200 per dispositivi ancora piu risoluti o desktop   */
 /* mobile */
 
 @media screen and (max-width: 575px) {
   p,
   ul,
-  ol {
-    font-size: 1.4rem;
-  }
-
+  ol,
   h2 {
-    font-size: 1.8rem;
-    font-weight: 700;
+    font-size: 1.2rem;
   }
 }
 
@@ -280,7 +276,7 @@ footer a {
   }
 }
 
-/* dimensioni piu grandi */
+/* desktop */
 @media screen and (min-width: 1200px) {
   header {
     text-align: left;
